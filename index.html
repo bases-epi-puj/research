@@ -15,24 +15,12 @@
     .nav-link.active {
       font-weight: bold;
     }
-    .logo {
-      height: 40px;
-      margin-right: 10px;
-    }
-    .header-logos {
-      display: flex;
-      align-items: center;
-    }
   </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
-      <div class="header-logos">
-        <img src="https://www.javeriana.edu.co/documents/12789/145971/escudo_puj_blanco.png" alt="Logo Javeriana" class="logo">
-        <img src="https://epidemiologia.javeriana.edu.co/documents/12789/226491/Logo+Epidemiologia+PUJ.png" alt="Logo Epidemiología" class="logo">
-        <a class="navbar-brand" href="#">Datos para Investigaciones en Salud</a>
-      </div>
+      <a class="navbar-brand" href="#">Datos para Investigaciones en Salud</a>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
@@ -55,15 +43,15 @@
   <div class="container mt-4">
     <section id="home">
       <h1>Bienvenido a Datos para Investigaciones en Salud</h1>
-      <p>Explora datasets, soluciones y preguntas de investigación enfocados en salud pública y epidemiología.</p>
+      <p>Explora datasets, soluciones y preguntas de investigación como en Kaggle.</p>
     </section>
 
     <section id="datasets" class="mt-5">
       <h2>Bases de Datos</h2>
       <ul class="list-group">
-        <li class="list-group-item">Dataset 1 - Predicción de hospitalizaciones</li>
-        <li class="list-group-item">Dataset 2 - Análisis de cohortes COVID-19</li>
-        <li class="list-group-item">Dataset 3 - Determinantes sociales y salud</li>
+        <li class="list-group-item">Dataset 1 - Predicción de ventas</li>
+        <li class="list-group-item">Dataset 2 - Clasificación de imágenes</li>
+        <li class="list-group-item">Dataset 3 - Análisis de sentimientos</li>
       </ul>
     </section>
 
@@ -71,10 +59,10 @@
       <h2>Códigos de Solución</h2>
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Predicción de hospitalizaciones</h5>
+          <h5 class="card-title">Predicción de ventas</h5>
           <pre><code>import pandas as pd
-from sklearn.linear_model import LogisticRegression
-# código de ejemplo para predicción de hospitalizaciones...</code></pre>
+from sklearn.linear_model import LinearRegression
+# código de ejemplo...</code></pre>
         </div>
       </div>
     </section>
@@ -82,9 +70,9 @@ from sklearn.linear_model import LogisticRegression
     <section id="questions" class="mt-5">
       <h2>Preguntas de Investigación</h2>
       <ul>
-        <li>¿Qué variables predicen mejor la hospitalización en pacientes con enfermedades respiratorias?</li>
-        <li>¿Cuáles son los efectos a largo plazo del COVID-19 en poblaciones vulnerables?</li>
-        <li>¿Cómo influyen los determinantes sociales en los desenlaces de salud?</li>
+        <li>¿Qué factores afectan más las ventas mensuales?</li>
+        <li>¿Cómo mejorar la precisión en modelos de clasificación de imágenes?</li>
+        <li>¿Qué técnicas de NLP funcionan mejor para tweets en español?</li>
       </ul>
     </section>
   </div>
